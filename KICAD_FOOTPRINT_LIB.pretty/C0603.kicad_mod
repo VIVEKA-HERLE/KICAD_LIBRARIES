@@ -1,4 +1,4 @@
-(footprint "R0603"
+(footprint "C0603"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "R0603"
+	(property "Value" "C0603"
 		(at 0 0.9 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -192,7 +192,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "19cf5c8a-c6e3-4f75-8e14-42c608393222")
 	)
-	(model "${KIPRJMOD}/LIBRARY/KICAD_3D_MODELS/R_0603_1608Metric.step"
+	(model "${KIPRJMOD}/LIBRARY/KICAD_3D_MODELS/C_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
