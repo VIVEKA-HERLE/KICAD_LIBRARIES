@@ -1,0 +1,236 @@
+(footprint "IND_IHLP3232DZ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "IHLP3232DZER1R0M5A ")
+	(property "Reference" "REF**"
+		(at 0 -5.22 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e71b0d3d-a2b2-49df-ae00-532edb4a65b7")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_IHLP3232DZ"
+		(at 0.01 5.17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "997c1160-9dd4-401e-9669-04507802d597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f30abb6-134f-486e-a6ab-50c04966a0dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cac4bf9-7abc-4dac-817f-0f600d27af56")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "327ec83b-60a2-47b0-a3b0-e588adaf190f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.2545 -4.2545)
+		(end -4.2545 -2.99974)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc1c35d4-909e-460f-a0ae-5900b52772f3")
+	)
+	(fp_line
+		(start -4.2545 2.99974)
+		(end -4.2545 4.2545)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5e7039b-dfd9-4d3a-aa3f-1647bc91efd5")
+	)
+	(fp_line
+		(start -4.2545 4.2545)
+		(end 4.2545 4.2545)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b15be216-f926-4b61-a7a5-11ae227d471d")
+	)
+	(fp_line
+		(start 4.2545 -4.2545)
+		(end -4.2545 -4.2545)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf043893-4900-4a5c-9346-c58e75a64cee")
+	)
+	(fp_line
+		(start 4.2545 -2.99974)
+		(end 4.2545 -4.2545)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e9992a8-f133-4ce9-96e8-424c4367550c")
+	)
+	(fp_line
+		(start 4.2545 4.2545)
+		(end 4.2545 2.99974)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0faee833-7c85-4071-90f1-98b8d6853de2")
+	)
+	(fp_rect
+		(start -5.5 -4.75)
+		(end 5.5 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6a96fbdc-492f-4615-97dd-10bae94afb55")
+	)
+	(fp_line
+		(start -4.1275 -4.1275)
+		(end -4.1275 4.1275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2625aa04-8724-43a7-b1f7-12ab1f826f6a")
+	)
+	(fp_line
+		(start -4.1275 4.1275)
+		(end 4.1275 4.1275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f153dc8b-6a14-435f-91f0-45a9ff1692d2")
+	)
+	(fp_line
+		(start 4.1275 -4.1275)
+		(end -4.1275 -4.1275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35c1b2df-6cfb-4151-822d-b0cc0bfd8db2")
+	)
+	(fp_line
+		(start 4.1275 4.1275)
+		(end 4.1275 -4.1275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdd8b011-1476-4077-9059-41bf2b953db7")
+	)
+	(fp_arc
+		(start 0.3048 -4.1275)
+		(mid 0 -3.8227)
+		(end -0.3048 -4.1275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "482a1ea3-7416-4770-852c-6a7ccdfa2e6d")
+	)
+	(fp_circle
+		(center -2.413 0)
+		(end -2.3368 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "58d6d362-28f9-4dec-882b-22de84bb8953")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "180ae84e-4c4e-45dd-94ce-29ae9acb8339")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.6195 0)
+		(size 2.413 5.334)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "09de6341-dbd2-4184-a563-a6d803530d91")
+	)
+	(pad "2" smd rect
+		(at 3.6195 0)
+		(size 2.413 5.334)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2d362a88-5a09-49de-b8a0-2da5ef132ea3")
+	)
+	(model "${KIPRJMOD}/LIBRARY/KICAD_3D_MODELS/IND_IHLP3232DZ.step"
+		(offset
+			(xyz 0 0 0.025)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
