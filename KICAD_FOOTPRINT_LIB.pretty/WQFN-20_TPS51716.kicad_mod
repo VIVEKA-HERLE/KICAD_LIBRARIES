@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "WQFN-20_TPS51716"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -202,8 +202,8 @@
 		(uuid "0c1f72b7-eaf1-4c63-adef-29827cc518d6")
 	)
 	(fp_rect
-		(start -2 -2)
-		(end 2 2)
+		(start -1.975 -1.975)
+		(end 1.975 1.975)
 		(stroke
 			(width 0.05)
 			(type default)

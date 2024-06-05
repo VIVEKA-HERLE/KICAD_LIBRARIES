@@ -1,4 +1,4 @@
-(footprint "Q5D_CSD87350Q5D"
+(footprint "Q5D_CSD87350Q5D_N"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Q5D_CSD87350Q5D"
+	(property "Value" "Q5D_CSD87350Q5D_N"
 		(at 0 3.53 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Q5D_CSD87350Q5D_N"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -303,8 +303,8 @@
 		(uuid "24d67e5c-af60-4726-b6c9-8ebd8448b8e0")
 	)
 	(fp_rect
-		(start -3.55 -3.05)
-		(end 3.55 3.05)
+		(start -3.57 -2.825)
+		(end 3.57 2.825)
 		(stroke
 			(width 0.05)
 			(type default)

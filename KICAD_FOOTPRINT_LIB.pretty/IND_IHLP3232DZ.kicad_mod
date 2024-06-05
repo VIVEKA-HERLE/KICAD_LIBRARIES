@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "IND_IHLP3232DZ"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -210,16 +210,20 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -3.6195 0)
 		(size 2.413 5.334)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
 		(uuid "09de6341-dbd2-4184-a563-a6d803530d91")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 3.6195 0)
 		(size 2.413 5.334)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
 		(uuid "2d362a88-5a09-49de-b8a0-2da5ef132ea3")
 	)
 	(model "${KIPRJMOD}/LIBRARY/KICAD_3D_MODELS/IND_IHLP3232DZ.step"

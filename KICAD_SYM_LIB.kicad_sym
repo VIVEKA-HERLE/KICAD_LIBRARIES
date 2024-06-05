@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0201"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0201_N"
 			(at 0.9652 -7.62 0)
 			(effects
 				(font
@@ -156,7 +156,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C0402 C0603 C0201 C0805 C1206 C1210"
+		(property "ki_fp_filters" "C0201_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -258,7 +258,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0402"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0402_N"
 			(at 0.9652 -7.62 0)
 			(effects
 				(font
@@ -384,7 +384,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C0402 C0603 C0201 C0805 C1206 C1210"
+		(property "ki_fp_filters" "C0402_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -486,7 +486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0603"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0603_N"
 			(at 0.9652 -7.62 0)
 			(effects
 				(font
@@ -612,7 +612,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C0402 C0603 C0201 C0805 C1206 C1210"
+		(property "ki_fp_filters" "C0603_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -714,7 +714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0805"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0805_N"
 			(at 0.9652 -7.62 0)
 			(effects
 				(font
@@ -840,7 +840,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C0402 C0603 C0201 C0805 C1206 C1210"
+		(property "ki_fp_filters" "C0805_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -942,7 +942,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:C1206"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:C1206_N"
 			(at 0.9652 -7.62 0)
 			(effects
 				(font
@@ -1068,7 +1068,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C0402 C0603 C0201 C0805 C1206 C1210"
+		(property "ki_fp_filters" "C1206_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2384,7 +2384,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0201"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0201_N"
 			(at 0 -4.064 90)
 			(effects
 				(font
@@ -2510,6 +2510,15 @@
 			)
 		)
 		(property "ki_keywords" "R0201"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R0201_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2647,7 +2656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0402"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0402_N"
 			(at 0 -4.064 90)
 			(effects
 				(font
@@ -2773,6 +2782,15 @@
 			)
 		)
 		(property "ki_keywords" "R0201"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R0402_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2910,7 +2928,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0603"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0603_N"
 			(at 0 -4.064 90)
 			(effects
 				(font
@@ -3036,6 +3054,15 @@
 			)
 		)
 		(property "ki_keywords" "R0201"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R0603_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3173,7 +3200,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0805"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0805_N"
 			(at 0 -4.064 90)
 			(effects
 				(font
@@ -3299,6 +3326,15 @@
 			)
 		)
 		(property "ki_keywords" "R0201"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R0805_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3436,7 +3472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R1206"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:R1206_N"
 			(at 0 -4.064 90)
 			(effects
 				(font
@@ -3562,6 +3598,15 @@
 			)
 		)
 		(property "ki_keywords" "R0201"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R1206_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3727,15 +3772,6 @@
 			)
 		)
 		(property "ki_keywords" "TPS51716RUKR"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "RUK0020B RUK0020B_NV"
 			(at 0 0 0)
 			(effects
 				(font
