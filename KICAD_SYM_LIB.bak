@@ -1168,7 +1168,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:Q5D_CSD87350Q5D"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:Q5D_CSD87350Q5D_N"
 			(at 0 0 0)
 			(effects
 				(font
