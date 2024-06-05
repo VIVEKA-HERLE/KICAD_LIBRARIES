@@ -437,7 +437,6 @@
 		(size 3.48 4.46)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.01)
-		(zone_connect 0)
 		(options
 			(clearance outline)
 			(anchor rect)
