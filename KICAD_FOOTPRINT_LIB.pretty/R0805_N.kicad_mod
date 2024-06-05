@@ -152,6 +152,7 @@
 		(size 1 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.025)
 		(uuid "4937d829-fe33-4310-b24e-1c4f5b5702fa")
 	)
 	(pad "2" smd roundrect
@@ -159,6 +160,7 @@
 		(size 1 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.025)
 		(uuid "1bdfed4a-fb38-4162-b692-6c86bd617303")
 	)
 	(model "${KIPRJMOD}/LIBRARY/KICAD_3D_MODELS/R_0805_2012Metric.step"
