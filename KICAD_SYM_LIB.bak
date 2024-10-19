@@ -2565,23 +2565,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 1.27 -2.286 0)
+			(at 1.27 -1.778 0)
 			(effects
 				(font
 					(size 1.25 1.25)
 					(bold yes)
 					(color 34 4 131 1)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "RES_SMD_TH"
-			(at 1.27 -4.064 0)
+			(at 1.27 -3.556 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0402_N"
@@ -2612,21 +2612,21 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 1.27 -5.588 0)
+			(at 1.27 -5.08 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Package" "xxxx"
-			(at 1.27 -6.858 0)
+			(at 1.27 -6.35 0)
 			(effects
 				(font
 					(size 0.6 0.6)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Package Height" ""
