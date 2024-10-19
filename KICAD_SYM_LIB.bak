@@ -1812,10 +1812,10 @@
 			)
 		)
 		(property "Package" "WQFN-12"
-			(at 12.192 -13.716 0)
+			(at 10.414 -13.208 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
