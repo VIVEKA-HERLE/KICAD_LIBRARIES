@@ -1448,1114 +1448,6 @@
 			)
 		)
 	)
-	(symbol "R0402"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 1.27 -2.54 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-					(bold yes)
-					(color 34 4 131 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "R0402"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0402_N"
-			(at 0 -4.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 1.27 -5.08 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package" "0402"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 0.6 0.6)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package Height" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Compliance" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part No" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 1" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 2" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temp Range" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "R0201"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "R0402_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R0402_0_1"
-			(polyline
-				(pts
-					(xy 0 -6.096) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R0402_1_1"
-			(pin passive line
-				(at 0 0 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "R0603"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 1.27 -2.54 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-					(bold yes)
-					(color 34 4 131 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "R0603"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0603_N"
-			(at 0 -4.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 1.27 -5.08 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package" "0603"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 0.6 0.6)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package Height" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Compliance" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part No" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 1" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 2" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temp Range" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "R0201"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "R0603_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R0603_0_1"
-			(polyline
-				(pts
-					(xy 0 -6.096) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R0603_1_1"
-			(pin passive line
-				(at 0 0 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "R0805"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 1.27 -2.54 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-					(bold yes)
-					(color 34 4 131 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "R0805"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R0805_N"
-			(at 0 -4.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 1.27 -5.08 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package" "0805"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 0.6 0.6)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package Height" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Compliance" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part No" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 1" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 2" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temp Range" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "R0201"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "R0805_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R0805_0_1"
-			(polyline
-				(pts
-					(xy 0 -6.096) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R0805_1_1"
-			(pin passive line
-				(at 0 0 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "R1206"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 1.27 -2.54 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-					(bold yes)
-					(color 34 4 131 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "R1206"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:R1206_N"
-			(at 0 -4.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 1.27 -5.08 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package" "1206"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 0.6 0.6)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Package Height" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Compliance" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part No" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 1" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternate Part 2" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temp Range" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "R0201"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "R1206_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R1206_0_1"
-			(polyline
-				(pts
-					(xy 0 -6.096) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 194 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R1206_1_1"
-			(pin passive line
-				(at 0 0 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "RES_SMD_TH"
 		(pin_numbers hide)
 		(pin_names
@@ -2827,6 +1719,376 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TLV3605"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.192 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 132 1)
+				)
+			)
+		)
+		(property "Value" "TLV3605RVKT"
+			(at 13.716 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Comparators 800-ps high-speed rail-rail input comparator with LVDS outputs"
+			(at 0 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 1" "TLV3605RVKR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 2" "AD8465WBCPZ-R7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "TLV3605RVKT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "WQFN-12"
+			(at 12.192 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TLV3605"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "WQFN-12_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLV3605_1_1"
+			(rectangle
+				(start -12.7 10.16)
+				(end 12.7 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "TLV3605"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VCCO"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "OUT-"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "VEE4"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "OUT+"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -12.7 90)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(name "VCCI"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 90)
+				(length 2.54)
+				(name "VEE1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(name "VEE2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "~{LE}/HYS"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 12.7 270)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "VEE3"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.1 1.1)
 						)
 					)
 				)

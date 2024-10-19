@@ -1725,6 +1725,376 @@
 			)
 		)
 	)
+	(symbol "TLV3605"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.192 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 132 1)
+				)
+			)
+		)
+		(property "Value" "TLV3605RVKT"
+			(at 13.716 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Comparators 800-ps high-speed rail-rail input comparator with LVDS outputs"
+			(at 0 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 1" "TLV3605RVKR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 2" "AD8465WBCPZ-R7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "TLV3605RVKT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "WQFN-12"
+			(at 12.192 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TLV3605"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "WQFN-12_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLV3605_1_1"
+			(rectangle
+				(start -12.7 10.16)
+				(end 12.7 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "TLV3605"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VCCO"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "OUT-"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "VEE4"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "OUT+"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -12.7 90)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(name "VCCI"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 90)
+				(length 2.54)
+				(name "VEE1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(name "VEE2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "~{LE}/HYS"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 12.7 270)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "VEE3"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TPS51716RUKR"
 		(pin_names
 			(offset 0.254)
