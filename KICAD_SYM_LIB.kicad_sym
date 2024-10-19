@@ -1748,7 +1748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:WQFN-12_N"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
