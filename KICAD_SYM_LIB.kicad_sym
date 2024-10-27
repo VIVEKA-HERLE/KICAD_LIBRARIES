@@ -1480,7 +1480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:SOT-23-3_N"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
