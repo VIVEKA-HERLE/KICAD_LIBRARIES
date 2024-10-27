@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "KICAD_FOOTPRINT_LIB:C0402_N"
-			(at 0.9652 -7.62 0)
+			(at 1.016 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,15 +84,6 @@
 				(hide yes)
 			)
 		)
-		(property "Operating Temp Range" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
@@ -102,7 +93,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part No" ""
+		(property "Part No" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -111,7 +102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate Part 1" ""
+		(property "Alternate 1" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -120,7 +111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate Part 2" ""
+		(property "Alternate 2" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -129,22 +120,12 @@
 				(hide yes)
 			)
 		)
-		(property "Compliance" ""
+		(property "BOM" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "CAP"
@@ -163,6 +144,34 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "CAP_CER_0_1"
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 194 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 194 1)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
 		(symbol "CAP_CER_1_1"
@@ -194,7 +203,7 @@
 			)
 			(pin passive line
 				(at 0 0 270)
-				(length 2.794)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -212,7 +221,7 @@
 			)
 			(pin passive line
 				(at 0 -7.62 90)
-				(length 2.794)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -1448,6 +1457,246 @@
 			)
 		)
 	)
+	(symbol "NCH_JFET"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCH_JFET"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:SOT-23-3_N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 1" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternate 2" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part No" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "N-Channel FET Transistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT-23-3_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NCH_JFET_0_1"
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NCH_JFET_1_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "RES_SMD_TH"
 		(pin_numbers hide)
 		(pin_names
@@ -1521,25 +1770,7 @@
 				(justify left)
 			)
 		)
-		(property "Package Height" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Compliance" ""
+		(property "BOM" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1557,7 +1788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part No" ""
+		(property "Part No" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1566,7 +1797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate Part 1" ""
+		(property "Alternate 1" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1575,30 +1806,13 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate Part 2" ""
+		(property "Alternate 2" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Operating Temp Range" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "R0201"
