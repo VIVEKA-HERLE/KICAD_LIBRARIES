@@ -24,6 +24,7 @@
 		)
 		(property "Value" "CAP_CER"
 			(at 2.54 -3.81 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1 1)
@@ -1244,7 +1245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:LQFP-48"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:LQFP-48_N"
 			(at 0 0 0)
 			(effects
 				(font

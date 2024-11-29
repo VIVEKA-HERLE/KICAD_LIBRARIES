@@ -24,6 +24,7 @@
 		)
 		(property "Value" "CAP_CER"
 			(at 2.54 -3.81 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1 1)
