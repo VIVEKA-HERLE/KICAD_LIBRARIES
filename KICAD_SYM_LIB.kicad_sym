@@ -11,7 +11,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 2.286 -1.524 0)
+			(at 2.54 -1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -22,7 +23,7 @@
 			)
 		)
 		(property "Value" "CAP_CER"
-			(at 2.54 -3.556 0)
+			(at 2.54 -3.81 0)
 			(effects
 				(font
 					(size 1 1)
@@ -59,6 +60,7 @@
 		)
 		(property "Package" "xxxx"
 			(at 2.54 -6.35 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -68,6 +70,7 @@
 		)
 		(property "DC Voltage" "xxV"
 			(at 2.54 -5.08 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1216,24 +1219,32 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -18.034 36.83 0)
+			(at -17.78 36.83 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 34 4 131 1)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "FT232HL"
-			(at 14.732 -36.83 0)
+			(at 13.97 -36.83 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 34 4 131 1)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "KICAD_FOOTPRINT_LIB:LQFP-48"
+		(property "Footprint" "KICAD_FOOTPRINT_LIB:LQFP-48_N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1313,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "QFN*1EP*8x8mm*P0.5mm* LQFP*7x7mm*P0.5mm*"
+		(property "ki_fp_filters" "LQFP-48_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3002,7 +3013,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 1.27 -1.778 0)
+			(at 1.27 -1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -3013,7 +3025,8 @@
 			)
 		)
 		(property "Value" "RES_SMD_TH"
-			(at 1.27 -3.556 0)
+			(at 1.27 -3.81 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1 1)
@@ -3050,6 +3063,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 1.27 -5.08 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3059,6 +3073,7 @@
 		)
 		(property "Package" "xxxx"
 			(at 1.27 -6.35 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 0.6 0.6)
