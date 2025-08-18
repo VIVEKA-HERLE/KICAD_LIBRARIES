@@ -1,0 +1,170 @@
+(footprint "ATS-CPX025025020-139-C2-R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 12 -13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e1e0ba7-d235-433e-b98f-5296866b316b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ATS-CPX025025020-139-C2-R0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab5daa5c-1bf9-4548-93d7-a19d7b62cd07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51c8ee7d-6448-49dc-b4cc-7113eb133c0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb3f3642-684c-405b-9943-8d76d6de32f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -10)
+		(end -6 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a86f3f96-7b29-4418-9a86-75034e5be964")
+	)
+	(fp_line
+		(start -5 -10)
+		(end -5 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0c57a251-f1d2-43a9-8bf0-12a1d9f2fd95")
+	)
+	(fp_line
+		(start -4 -10)
+		(end -4 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3d1e7c1a-acc2-4936-a919-0070e7816a35")
+	)
+	(fp_rect
+		(start -12.5 -12.5)
+		(end 12.5 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dafec242-bf0b-408b-b4dc-f87809741cf1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "17221cc9-fdf6-4305-9546-d72c6af90fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -15 -15)
+		(size 1.905 1.905)
+		(drill 3.175)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 2)
+		(solder_paste_margin 2)
+		(solder_paste_margin_ratio 1)
+		(clearance 2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments no)
+			(prefer_zone_connections no)
+		)
+		(uuid "4b69b3be-4409-4ecd-a032-23ab266f703c")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.905 1.905)
+				(clearance 2)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.905 1.905)
+				(clearance 2)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 15 15 180)
+		(size 1.905 1.905)
+		(drill 3.175)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 2)
+		(solder_paste_margin 2)
+		(solder_paste_margin_ratio 1)
+		(clearance 2)
+		(uuid "77702cdb-4972-48a7-8d08-cfcee3ccb0fd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIBRARY/KICAD_3D_MODELS/ATS-CPX-139-CX-R0_FUSED.STEP"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
