@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "ATS-CPX030030020-171-C1-R0"
-			(at -12.7 -2.54 0)
+			(at -16.002 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
